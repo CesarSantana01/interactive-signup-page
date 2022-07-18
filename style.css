@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Fira+Sans:ital,wght@1,400;1,700&family=Nunito:ital,wght@1,200&display=swap');
+
+body{
+ display:flex ;
+ flex-wrap: wrap;
+ margin: 0;
+ padding: 0;
+}
+
+.background{
+width:40%;
+background-image: url(https://wallpapercave.com/wp/wp8584368.png);
+background-size: 100% 100%;
+}
+
+.container{
+font-family: 'Nunito', sans-serif;
+font-size: 60px;
+  color: white;
+  margin-top: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0, .4);
+  
+  
+  height: calc(170px + 2rem);
+}
+.ftcontainer{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  color: white;
+  position: fixed;
+  bottom: 1rem;
+}
+
+.animeImg{
+  padding-left: 0;
+  width: 170px;
+  height: 170px;
+  background-size: 170px 170px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url(https://cryptologos.cc/logos/ethereum-eth-logo.png);
+  
+  
+}
+
+.mainPage{
+
+width: 60%;
+}
+.intro{
+  padding: 10px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
+  margin:2rem;
+  margin-top: 9rem;
+  background-color: rgba(128,128,128, .3);
+  box-shadow: 0px 0px 10px rgb(164, 164, 164) inset;
+  border-radius: 5px;
+}
+ul{
+  list-style-type: none;
+}
+.questions{
+}
+
+.row1{
+  display: flex;
+  gap: clamp(30px, 100px, 160px);
+}
+#sectionFirstName{
+
+
+}
+#sectionLastName{
+
+
+}
+.row2{
+  display: flex;
+  gap: clamp(30px, 100px, 160px);
+}
+#sectionEmail{
+ 
+}
+#sectionPNumber{
+  
+}
+#sectionPassword{
+  
+}
+.row3{
+  display: flex;
+  gap: clamp(30px, 100px, 160px);
+}
+#sectionConfirmPassword{
+ 
+}
+#createAccount{
+ margin: 2.5rem;
+ width: 170px;
+ height: 50px;
+ border-radius: 8px;
+ font-family: 'Fira Sans', sans-serif;
+ font-size: 1rem;
+ background-image: url(https://i.pinimg.com/736x/51/9d/df/519ddfc8c84fe7480c64ecf151dfa651.jpg);
+ background-size: 170px 50px;
+ background-repeat: no-repeat;
+}
+.signed{
+  margin-left: 2rem;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+input{
+  border: 2px solid rgba(128, 128, 128, .5);
+  border-radius: 3px;
+  height: 1.8rem;
+  width: clamp(100px, 220px, 280px);
+  
+}
+label{
+  font-family: 'Fira Sans', sans-serif;
+}
+input:not(:focus):not(:placeholder-shown):invalid{
+  border: 2px solid rgba(156, 29, 29, 0.5);
+}
+input:valid{
+  border: 2px solid rgba(0, 116, 241, 0.5);
+}
+
